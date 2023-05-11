@@ -1,0 +1,21 @@
+{
+  "name": "env-setup-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "development" : "NODE_ENV=development ts-node app.ts",
+    "staging" : "NODE_ENV=staging ts-node app.ts",
+    "testing" : "NODE_ENV=testing ts-node app.ts",
+    "production" : "NODE_ENV=production ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2"
+  }
+}
